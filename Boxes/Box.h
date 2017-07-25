@@ -21,6 +21,6 @@
 
 -(float) boxVolume;
 -(float) boxCompare:(Box*) anotherBox;
-
+-(instancetype) initWithHeight:(float)height Width:(float)width Length:(float)length;
 
 @end
